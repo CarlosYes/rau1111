@@ -2292,7 +2292,7 @@ if (IS_HEADER) {
 	init();
 } else {
 	// Allow status to render, then preload assets and start app.
-	setLoadingStatus('Allumez le Feu !');
+	setLoadingStatus('Aqui Escolheu Certo!');
 	setTimeout(() => {
 		soundManager.preload()
 		.then(
